@@ -27,7 +27,7 @@
       {
         "fieldName": "id",
         "operator": "EQ_NUM",
-        "value": "300"
+        "value": "400"
       }
     ],
     "operator": "AND"
