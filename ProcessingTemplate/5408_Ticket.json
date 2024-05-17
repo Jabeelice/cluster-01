@@ -10,6 +10,28 @@
   "workflowType": "STANDARD",
   "customFieldValues": {
   },
+  "forceCompletedCondition": {
+    "criteria": 
+    [
+      {
+        "fieldName": "name",
+        "operator": "EQ",
+        "value": "TEST"
+      }
+    ],
+    "operator": "AND"
+  },
+  "ignoreCondition": {
+    "criteria": 
+    [
+      {
+        "fieldName": "id",
+        "operator": "EQ_NUM",
+        "value": "300"
+      }
+    ],
+    "operator": "AND"
+  },
   "processingCommand": {
   },
   "items": 
